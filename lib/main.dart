@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:dapur_laekker/inventory.dart';
+import 'package:dapur_laekker/screens/inventory.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Dapur Laekker',
       theme: ThemeData(
         // This is the theme of your application.
         //
@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
         //
         // This works for code too, not just values: Most code changes can be
         // tested with just a hot reload.
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.indigo),
+        colorScheme: ColorScheme.fromSeed(seedColor: Color.fromARGB(255, 182, 58, 21)),
         useMaterial3: true,
       ),
       home: MyHomePage(),
